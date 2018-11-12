@@ -1,0 +1,16 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server_books.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:all": "node server_book & node server_user & node gateway & node proxy"
+  },
+  "author": "",
+  "license": "ISC"
+}
